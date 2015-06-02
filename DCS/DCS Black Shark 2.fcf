@@ -23,7 +23,7 @@
         <ControlIndex>1</ControlIndex>
         <Events>
           <HidCommand0>
-            <EventName>gun fire</EventName>
+            <EventName>Gun Fire</EventName>
             <IsSequence>False</IsSequence>
             <Layers>1 2 16 32 64</Layers>
             <Delay>-1</Delay>
@@ -115,7 +115,7 @@
         <ControlIndex>3</ControlIndex>
         <Events>
           <HidCommand0>
-            <EventName>auto hover</EventName>
+            <EventName>Autohover On/Off</EventName>
             <IsSequence>False</IsSequence>
             <Layers>1 2 16 32 64</Layers>
             <Delay>-1</Delay>
@@ -207,7 +207,7 @@
         <ControlIndex>5</ControlIndex>
         <Events>
           <HidCommand0>
-            <EventName>canon</EventName>
+            <EventName>Select Canon</EventName>
             <IsSequence>False</IsSequence>
             <Layers>1 2 16 32 64</Layers>
             <Delay>-1</Delay>
@@ -2506,7 +2506,7 @@
           <Center>0</Center>
           <Upper>0</Upper>
           <Trim>0</Trim>
-          <Curve>2</Curve>
+          <Curve>0</Curve>
           <Zoom>0</Zoom>
           <AxisIsReversed>False</AxisIsReversed>
           <AxisIsRelative>False</AxisIsRelative>
