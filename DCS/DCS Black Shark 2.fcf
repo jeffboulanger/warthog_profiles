@@ -451,11 +451,12 @@
             <YPosition>50</YPosition>
             <HidEvent0>
               <DeviceNumber>-1</DeviceNumber>
-              <Name>\</Name>
-              <HidType>1</HidType>
-              <EventType>3</EventType>
+              <Name>
+              </Name>
+              <HidType>3</HidType>
+              <EventType>4</EventType>
               <ActionType>1</ActionType>
-              <ControlIndex>49</ControlIndex>
+              <ControlIndex>32</ControlIndex>
             </HidEvent0>
           </HidCommand0>
         </Events>
