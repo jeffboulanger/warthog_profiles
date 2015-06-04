@@ -435,7 +435,7 @@
             <Delay>-1</Delay>
             <Comment>
             </Comment>
-            <EventsNumber>2</EventsNumber>
+            <EventsNumber>1</EventsNumber>
             <StartTrigger>0</StartTrigger>
             <StopTrigger>0</StopTrigger>
             <CurveType>0</CurveType>
@@ -451,20 +451,13 @@
             <YPosition>50</YPosition>
             <HidEvent0>
               <DeviceNumber>-1</DeviceNumber>
-              <Name>R_ALT</Name>
-              <HidType>1</HidType>
+              <Name>
+              </Name>
+              <HidType>3</HidType>
               <EventType>4</EventType>
               <ActionType>1</ActionType>
-              <ControlIndex>230</ControlIndex>
+              <ControlIndex>32</ControlIndex>
             </HidEvent0>
-            <HidEvent1>
-              <DeviceNumber>-1</DeviceNumber>
-              <Name>/</Name>
-              <HidType>1</HidType>
-              <EventType>4</EventType>
-              <ActionType>1</ActionType>
-              <ControlIndex>56</ControlIndex>
-            </HidEvent1>
           </HidCommand0>
         </Events>
       </HidEvent>
@@ -1885,7 +1878,7 @@
         <ControlIndex>21</ControlIndex>
         <Events>
           <HidCommand0>
-            <EventName>Reset Shkval</EventName>
+            <EventName>Ekran MWL</EventName>
             <IsSequence>False</IsSequence>
             <Layers>1 2 16 32 64</Layers>
             <Delay>-1</Delay>
@@ -1907,11 +1900,11 @@
             <YPosition>50</YPosition>
             <HidEvent0>
               <DeviceNumber>-1</DeviceNumber>
-              <Name>BSP</Name>
+              <Name>m</Name>
               <HidType>1</HidType>
               <EventType>3</EventType>
               <ActionType>1</ActionType>
-              <ControlIndex>42</ControlIndex>
+              <ControlIndex>16</ControlIndex>
             </HidEvent0>
           </HidCommand0>
         </Events>
@@ -2120,6 +2113,48 @@
     <Event45>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
+        <Name>APENG</Name>
+        <HidType>3</HidType>
+        <EventType>1</EventType>
+        <ActionType>1</ActionType>
+        <ControlIndex>26</ControlIndex>
+        <Events>
+          <HidCommand0>
+            <EventName>Reset Shkval</EventName>
+            <IsSequence>False</IsSequence>
+            <Layers>1 2 16 32 64</Layers>
+            <Delay>-1</Delay>
+            <Comment>
+            </Comment>
+            <EventsNumber>1</EventsNumber>
+            <StartTrigger>0</StartTrigger>
+            <StopTrigger>0</StopTrigger>
+            <CurveType>0</CurveType>
+            <Lower>0</Lower>
+            <Center>0</Center>
+            <Upper>0</Upper>
+            <Trim>0</Trim>
+            <Curve>0</Curve>
+            <Zoom>0</Zoom>
+            <AxisIsReversed>False</AxisIsReversed>
+            <AxisIsRelative>False</AxisIsRelative>
+            <XPosition>50</XPosition>
+            <YPosition>50</YPosition>
+            <HidEvent0>
+              <DeviceNumber>-1</DeviceNumber>
+              <Name>BSP</Name>
+              <HidType>1</HidType>
+              <EventType>3</EventType>
+              <ActionType>1</ActionType>
+              <ControlIndex>42</ControlIndex>
+            </HidEvent0>
+          </HidCommand0>
+        </Events>
+      </HidEvent>
+    </Event45>
+    <Event46>
+      <HidEvent>
+        <DeviceNumber>1002</DeviceNumber>
         <Name>APPAT</Name>
         <HidType>3</HidType>
         <EventType>1</EventType>
@@ -2158,8 +2193,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event45>
-    <Event46>
+    </Event46>
+    <Event47>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>APPAT</Name>
@@ -2200,8 +2235,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event46>
-    <Event47>
+    </Event47>
+    <Event48>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>APALT</Name>
@@ -2242,8 +2277,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event47>
-    <Event48>
+    </Event48>
+    <Event49>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>APALT</Name>
@@ -2284,8 +2319,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event48>
-    <Event49>
+    </Event49>
+    <Event50>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>APUOFF</Name>
@@ -2334,8 +2369,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event49>
-    <Event50>
+    </Event50>
+    <Event51>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>CSU</Name>
@@ -2384,8 +2419,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event50>
-    <Event51>
+    </Event51>
+    <Event52>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>CSD</Name>
@@ -2434,8 +2469,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event51>
-    <Event52>
+    </Event52>
+    <Event53>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>CSR</Name>
@@ -2484,8 +2519,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event52>
-    <Event53>
+    </Event53>
+    <Event54>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>CSL</Name>
@@ -2534,7 +2569,7 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event53>
+    </Event54>
   </EventsList>
   <AxisCustomization>
     <Mapping0>
