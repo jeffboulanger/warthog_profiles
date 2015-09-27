@@ -65,7 +65,7 @@
         <ControlIndex>2</ControlIndex>
         <Events>
           <HidCommand0>
-            <EventName>Laser On/Off</EventName>
+            <EventName>Autopilot Off</EventName>
             <IsSequence>False</IsSequence>
             <Layers>1 2 16 32 64</Layers>
             <Delay>-1</Delay>
@@ -87,19 +87,19 @@
             <YPosition>50</YPosition>
             <HidEvent0>
               <DeviceNumber>-1</DeviceNumber>
-              <Name>R_SHIFT</Name>
+              <Name>L_ALT</Name>
               <HidType>1</HidType>
               <EventType>3</EventType>
               <ActionType>1</ActionType>
-              <ControlIndex>229</ControlIndex>
+              <ControlIndex>226</ControlIndex>
             </HidEvent0>
             <HidEvent1>
               <DeviceNumber>-1</DeviceNumber>
-              <Name>o</Name>
+              <Name>9</Name>
               <HidType>1</HidType>
               <EventType>3</EventType>
               <ActionType>1</ActionType>
-              <ControlIndex>18</ControlIndex>
+              <ControlIndex>38</ControlIndex>
             </HidEvent1>
           </HidCommand0>
         </Events>
@@ -615,12 +615,11 @@
             <YPosition>50</YPosition>
             <HidEvent0>
               <DeviceNumber>-1</DeviceNumber>
-              <Name>
-              </Name>
-              <HidType>3</HidType>
+              <Name>KP*</Name>
+              <HidType>1</HidType>
               <EventType>4</EventType>
               <ActionType>1</ActionType>
-              <ControlIndex>21</ControlIndex>
+              <ControlIndex>85</ControlIndex>
             </HidEvent0>
           </HidCommand0>
         </Events>
@@ -716,12 +715,11 @@
             <YPosition>50</YPosition>
             <HidEvent0>
               <DeviceNumber>-1</DeviceNumber>
-              <Name>
-              </Name>
-              <HidType>3</HidType>
+              <Name>KP/</Name>
+              <HidType>1</HidType>
               <EventType>4</EventType>
               <ActionType>1</ActionType>
-              <ControlIndex>22</ControlIndex>
+              <ControlIndex>84</ControlIndex>
             </HidEvent0>
           </HidCommand0>
         </Events>
@@ -1405,13 +1403,13 @@
         <ControlIndex>9</ControlIndex>
         <Events>
           <HidCommand0>
-            <EventName>NAV Mode</EventName>
+            <EventName>Laser On/Off</EventName>
             <IsSequence>False</IsSequence>
             <Layers>1 2 16 32 64</Layers>
             <Delay>-1</Delay>
             <Comment>
             </Comment>
-            <EventsNumber>1</EventsNumber>
+            <EventsNumber>2</EventsNumber>
             <StartTrigger>0</StartTrigger>
             <StopTrigger>0</StopTrigger>
             <CurveType>0</CurveType>
@@ -1427,17 +1425,75 @@
             <YPosition>50</YPosition>
             <HidEvent0>
               <DeviceNumber>-1</DeviceNumber>
-              <Name>1</Name>
+              <Name>R_SHIFT</Name>
               <HidType>1</HidType>
               <EventType>3</EventType>
               <ActionType>1</ActionType>
-              <ControlIndex>30</ControlIndex>
+              <ControlIndex>229</ControlIndex>
             </HidEvent0>
+            <HidEvent1>
+              <DeviceNumber>-1</DeviceNumber>
+              <Name>o</Name>
+              <HidType>1</HidType>
+              <EventType>3</EventType>
+              <ActionType>1</ActionType>
+              <ControlIndex>18</ControlIndex>
+            </HidEvent1>
           </HidCommand0>
         </Events>
       </HidEvent>
     </Event30>
     <Event31>
+      <HidEvent>
+        <DeviceNumber>1002</DeviceNumber>
+        <Name>BSF</Name>
+        <HidType>3</HidType>
+        <EventType>2</EventType>
+        <ActionType>1</ActionType>
+        <ControlIndex>9</ControlIndex>
+        <Events>
+          <HidCommand0>
+            <EventName>Laser On/Off</EventName>
+            <IsSequence>False</IsSequence>
+            <Layers>1 2 16 32 64</Layers>
+            <Delay>-1</Delay>
+            <Comment>
+            </Comment>
+            <EventsNumber>2</EventsNumber>
+            <StartTrigger>0</StartTrigger>
+            <StopTrigger>0</StopTrigger>
+            <CurveType>0</CurveType>
+            <Lower>0</Lower>
+            <Center>0</Center>
+            <Upper>0</Upper>
+            <Trim>0</Trim>
+            <Curve>0</Curve>
+            <Zoom>0</Zoom>
+            <AxisIsReversed>False</AxisIsReversed>
+            <AxisIsRelative>False</AxisIsRelative>
+            <XPosition>50</XPosition>
+            <YPosition>50</YPosition>
+            <HidEvent0>
+              <DeviceNumber>-1</DeviceNumber>
+              <Name>R_SHIFT</Name>
+              <HidType>1</HidType>
+              <EventType>3</EventType>
+              <ActionType>1</ActionType>
+              <ControlIndex>229</ControlIndex>
+            </HidEvent0>
+            <HidEvent1>
+              <DeviceNumber>-1</DeviceNumber>
+              <Name>o</Name>
+              <HidType>1</HidType>
+              <EventType>3</EventType>
+              <ActionType>1</ActionType>
+              <ControlIndex>18</ControlIndex>
+            </HidEvent1>
+          </HidCommand0>
+        </Events>
+      </HidEvent>
+    </Event31>
+    <Event32>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>BSB</Name>
@@ -1478,8 +1534,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event31>
-    <Event32>
+    </Event32>
+    <Event33>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>PSF</Name>
@@ -1528,8 +1584,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event32>
-    <Event33>
+    </Event33>
+    <Event34>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>PSB</Name>
@@ -1578,8 +1634,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event33>
-    <Event34>
+    </Event34>
+    <Event35>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>LTB</Name>
@@ -1620,55 +1676,13 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event34>
-    <Event35>
-      <HidEvent>
-        <DeviceNumber>1002</DeviceNumber>
-        <Name>EFLNORM</Name>
-        <HidType>3</HidType>
-        <EventType>1</EventType>
-        <ActionType>1</ActionType>
-        <ControlIndex>16</ControlIndex>
-        <Events>
-          <HidCommand0>
-            <EventName>Electro Optical System</EventName>
-            <IsSequence>False</IsSequence>
-            <Layers>1 2 16 32 64</Layers>
-            <Delay>-1</Delay>
-            <Comment>
-            </Comment>
-            <EventsNumber>1</EventsNumber>
-            <StartTrigger>0</StartTrigger>
-            <StopTrigger>0</StopTrigger>
-            <CurveType>0</CurveType>
-            <Lower>0</Lower>
-            <Center>0</Center>
-            <Upper>0</Upper>
-            <Trim>0</Trim>
-            <Curve>0</Curve>
-            <Zoom>0</Zoom>
-            <AxisIsReversed>False</AxisIsReversed>
-            <AxisIsRelative>False</AxisIsRelative>
-            <XPosition>50</XPosition>
-            <YPosition>50</YPosition>
-            <HidEvent0>
-              <DeviceNumber>-1</DeviceNumber>
-              <Name>o</Name>
-              <HidType>1</HidType>
-              <EventType>3</EventType>
-              <ActionType>1</ActionType>
-              <ControlIndex>18</ControlIndex>
-            </HidEvent0>
-          </HidCommand0>
-        </Events>
-      </HidEvent>
     </Event35>
     <Event36>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>EFLNORM</Name>
         <HidType>3</HidType>
-        <EventType>2</EventType>
+        <EventType>1</EventType>
         <ActionType>1</ActionType>
         <ControlIndex>16</ControlIndex>
         <Events>
@@ -1708,6 +1722,48 @@
     <Event37>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
+        <Name>EFLNORM</Name>
+        <HidType>3</HidType>
+        <EventType>2</EventType>
+        <ActionType>1</ActionType>
+        <ControlIndex>16</ControlIndex>
+        <Events>
+          <HidCommand0>
+            <EventName>Electro Optical System</EventName>
+            <IsSequence>False</IsSequence>
+            <Layers>1 2 16 32 64</Layers>
+            <Delay>-1</Delay>
+            <Comment>
+            </Comment>
+            <EventsNumber>1</EventsNumber>
+            <StartTrigger>0</StartTrigger>
+            <StopTrigger>0</StopTrigger>
+            <CurveType>0</CurveType>
+            <Lower>0</Lower>
+            <Center>0</Center>
+            <Upper>0</Upper>
+            <Trim>0</Trim>
+            <Curve>0</Curve>
+            <Zoom>0</Zoom>
+            <AxisIsReversed>False</AxisIsReversed>
+            <AxisIsRelative>False</AxisIsRelative>
+            <XPosition>50</XPosition>
+            <YPosition>50</YPosition>
+            <HidEvent0>
+              <DeviceNumber>-1</DeviceNumber>
+              <Name>o</Name>
+              <HidType>1</HidType>
+              <EventType>3</EventType>
+              <ActionType>1</ActionType>
+              <ControlIndex>18</ControlIndex>
+            </HidEvent0>
+          </HidCommand0>
+        </Events>
+      </HidEvent>
+    </Event37>
+    <Event38>
+      <HidEvent>
+        <DeviceNumber>1002</DeviceNumber>
         <Name>EFRNORM</Name>
         <HidType>3</HidType>
         <EventType>1</EventType>
@@ -1746,8 +1802,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event37>
-    <Event38>
+    </Event38>
+    <Event39>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>EFRNORM</Name>
@@ -1788,8 +1844,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event38>
-    <Event39>
+    </Event39>
+    <Event40>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>EOLMOTOR</Name>
@@ -1838,8 +1894,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event39>
-    <Event40>
+    </Event40>
+    <Event41>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>EORMOTOR</Name>
@@ -1888,8 +1944,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event40>
-    <Event41>
+    </Event41>
+    <Event42>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>APUON</Name>
@@ -1938,8 +1994,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event41>
-    <Event42>
+    </Event42>
+    <Event43>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>LDGH</Name>
@@ -1988,8 +2044,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event42>
-    <Event43>
+    </Event43>
+    <Event44>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>FLAPU</Name>
@@ -2038,8 +2094,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event43>
-    <Event44>
+    </Event44>
+    <Event45>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>FLAPD</Name>
@@ -2088,55 +2144,13 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event44>
-    <Event45>
-      <HidEvent>
-        <DeviceNumber>1002</DeviceNumber>
-        <Name>EACON</Name>
-        <HidType>3</HidType>
-        <EventType>1</EventType>
-        <ActionType>1</ActionType>
-        <ControlIndex>24</ControlIndex>
-        <Events>
-          <HidCommand0>
-            <EventName>ECM</EventName>
-            <IsSequence>False</IsSequence>
-            <Layers>1 2 16 32 64</Layers>
-            <Delay>-1</Delay>
-            <Comment>
-            </Comment>
-            <EventsNumber>1</EventsNumber>
-            <StartTrigger>0</StartTrigger>
-            <StopTrigger>0</StopTrigger>
-            <CurveType>0</CurveType>
-            <Lower>0</Lower>
-            <Center>0</Center>
-            <Upper>0</Upper>
-            <Trim>0</Trim>
-            <Curve>0</Curve>
-            <Zoom>0</Zoom>
-            <AxisIsReversed>False</AxisIsReversed>
-            <AxisIsRelative>False</AxisIsRelative>
-            <XPosition>50</XPosition>
-            <YPosition>50</YPosition>
-            <HidEvent0>
-              <DeviceNumber>-1</DeviceNumber>
-              <Name>e</Name>
-              <HidType>1</HidType>
-              <EventType>3</EventType>
-              <ActionType>1</ActionType>
-              <ControlIndex>8</ControlIndex>
-            </HidEvent0>
-          </HidCommand0>
-        </Events>
-      </HidEvent>
     </Event45>
     <Event46>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>EACON</Name>
         <HidType>3</HidType>
-        <EventType>2</EventType>
+        <EventType>1</EventType>
         <ActionType>1</ActionType>
         <ControlIndex>24</ControlIndex>
         <Events>
@@ -2176,20 +2190,20 @@
     <Event47>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
-        <Name>RDRNRM</Name>
+        <Name>EACON</Name>
         <HidType>3</HidType>
-        <EventType>1</EventType>
+        <EventType>2</EventType>
         <ActionType>1</ActionType>
-        <ControlIndex>25</ControlIndex>
+        <ControlIndex>24</ControlIndex>
         <Events>
           <HidCommand0>
-            <EventName>IR Stör</EventName>
+            <EventName>ECM</EventName>
             <IsSequence>False</IsSequence>
             <Layers>1 2 16 32 64</Layers>
             <Delay>-1</Delay>
             <Comment>
             </Comment>
-            <EventsNumber>2</EventsNumber>
+            <EventsNumber>1</EventsNumber>
             <StartTrigger>0</StartTrigger>
             <StopTrigger>0</StopTrigger>
             <CurveType>0</CurveType>
@@ -2205,20 +2219,12 @@
             <YPosition>50</YPosition>
             <HidEvent0>
               <DeviceNumber>-1</DeviceNumber>
-              <Name>L_SHIFT</Name>
-              <HidType>1</HidType>
-              <EventType>3</EventType>
-              <ActionType>1</ActionType>
-              <ControlIndex>225</ControlIndex>
-            </HidEvent0>
-            <HidEvent1>
-              <DeviceNumber>-1</DeviceNumber>
               <Name>e</Name>
               <HidType>1</HidType>
               <EventType>3</EventType>
               <ActionType>1</ActionType>
               <ControlIndex>8</ControlIndex>
-            </HidEvent1>
+            </HidEvent0>
           </HidCommand0>
         </Events>
       </HidEvent>
@@ -2228,7 +2234,7 @@
         <DeviceNumber>1002</DeviceNumber>
         <Name>RDRNRM</Name>
         <HidType>3</HidType>
-        <EventType>2</EventType>
+        <EventType>1</EventType>
         <ActionType>1</ActionType>
         <ControlIndex>25</ControlIndex>
         <Events>
@@ -2274,6 +2280,56 @@
       </HidEvent>
     </Event48>
     <Event49>
+      <HidEvent>
+        <DeviceNumber>1002</DeviceNumber>
+        <Name>RDRNRM</Name>
+        <HidType>3</HidType>
+        <EventType>2</EventType>
+        <ActionType>1</ActionType>
+        <ControlIndex>25</ControlIndex>
+        <Events>
+          <HidCommand0>
+            <EventName>IR Stör</EventName>
+            <IsSequence>False</IsSequence>
+            <Layers>1 2 16 32 64</Layers>
+            <Delay>-1</Delay>
+            <Comment>
+            </Comment>
+            <EventsNumber>2</EventsNumber>
+            <StartTrigger>0</StartTrigger>
+            <StopTrigger>0</StopTrigger>
+            <CurveType>0</CurveType>
+            <Lower>0</Lower>
+            <Center>0</Center>
+            <Upper>0</Upper>
+            <Trim>0</Trim>
+            <Curve>0</Curve>
+            <Zoom>0</Zoom>
+            <AxisIsReversed>False</AxisIsReversed>
+            <AxisIsRelative>False</AxisIsRelative>
+            <XPosition>50</XPosition>
+            <YPosition>50</YPosition>
+            <HidEvent0>
+              <DeviceNumber>-1</DeviceNumber>
+              <Name>L_SHIFT</Name>
+              <HidType>1</HidType>
+              <EventType>3</EventType>
+              <ActionType>1</ActionType>
+              <ControlIndex>225</ControlIndex>
+            </HidEvent0>
+            <HidEvent1>
+              <DeviceNumber>-1</DeviceNumber>
+              <Name>e</Name>
+              <HidType>1</HidType>
+              <EventType>3</EventType>
+              <ActionType>1</ActionType>
+              <ControlIndex>8</ControlIndex>
+            </HidEvent1>
+          </HidCommand0>
+        </Events>
+      </HidEvent>
+    </Event49>
+    <Event50>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>APENG</Name>
@@ -2398,8 +2454,8 @@
           </HidCommand2>
         </Events>
       </HidEvent>
-    </Event49>
-    <Event50>
+    </Event50>
+    <Event51>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>EOLIGN</Name>
@@ -2448,8 +2504,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event50>
-    <Event51>
+    </Event51>
+    <Event52>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>EORIGN</Name>
@@ -2498,8 +2554,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event51>
-    <Event52>
+    </Event52>
+    <Event53>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>APUOFF</Name>
@@ -2548,8 +2604,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event52>
-    <Event53>
+    </Event53>
+    <Event54>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>IDLERON</Name>
@@ -2591,8 +2647,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event53>
-    <Event54>
+    </Event54>
+    <Event55>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>FLAPM</Name>
@@ -2633,8 +2689,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event54>
-    <Event55>
+    </Event55>
+    <Event56>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>BSM</Name>
@@ -2675,8 +2731,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event55>
-    <Event56>
+    </Event56>
+    <Event57>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>CSU</Name>
@@ -2717,8 +2773,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event56>
-    <Event57>
+    </Event57>
+    <Event58>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>CSD</Name>
@@ -2767,8 +2823,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event57>
-    <Event58>
+    </Event58>
+    <Event59>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>CSR</Name>
@@ -2809,8 +2865,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event58>
-    <Event59>
+    </Event59>
+    <Event60>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>CSL</Name>
@@ -2851,7 +2907,7 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event59>
+    </Event60>
   </EventsList>
   <AxisCustomization>
     <Mapping0>
@@ -2962,10 +3018,10 @@
           <StopTrigger>0</StopTrigger>
           <CurveType>0</CurveType>
           <Lower>0</Lower>
-          <Center>100</Center>
-          <Upper>50</Upper>
+          <Center>0</Center>
+          <Upper>0</Upper>
           <Trim>0</Trim>
-          <Curve>5</Curve>
+          <Curve>0</Curve>
           <Zoom>-4</Zoom>
           <AxisIsReversed>False</AxisIsReversed>
           <AxisIsRelative>False</AxisIsRelative>
@@ -3005,10 +3061,10 @@
           <StopTrigger>0</StopTrigger>
           <CurveType>0</CurveType>
           <Lower>0</Lower>
-          <Center>100</Center>
-          <Upper>50</Upper>
+          <Center>0</Center>
+          <Upper>0</Upper>
           <Trim>0</Trim>
-          <Curve>5</Curve>
+          <Curve>-1</Curve>
           <Zoom>-4</Zoom>
           <AxisIsReversed>False</AxisIsReversed>
           <AxisIsRelative>False</AxisIsRelative>
