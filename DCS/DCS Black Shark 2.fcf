@@ -688,7 +688,7 @@
             <Delay>-1</Delay>
             <Comment>
             </Comment>
-            <EventsNumber>4</EventsNumber>
+            <EventsNumber>3</EventsNumber>
             <StartTrigger>0</StartTrigger>
             <StopTrigger>0</StopTrigger>
             <CurveType>0</CurveType>
@@ -704,36 +704,28 @@
             <YPosition>50</YPosition>
             <HidEvent0>
               <DeviceNumber>-1</DeviceNumber>
-              <Name>L_SHIFT</Name>
-              <HidType>1</HidType>
-              <EventType>3</EventType>
-              <ActionType>1</ActionType>
-              <ControlIndex>225</ControlIndex>
-            </HidEvent0>
-            <HidEvent1>
-              <DeviceNumber>-1</DeviceNumber>
               <Name>L_CTL</Name>
               <HidType>1</HidType>
               <EventType>3</EventType>
               <ActionType>1</ActionType>
               <ControlIndex>224</ControlIndex>
-            </HidEvent1>
-            <HidEvent2>
+            </HidEvent0>
+            <HidEvent1>
               <DeviceNumber>-1</DeviceNumber>
               <Name>L_ALT</Name>
               <HidType>1</HidType>
               <EventType>3</EventType>
               <ActionType>1</ActionType>
               <ControlIndex>226</ControlIndex>
-            </HidEvent2>
-            <HidEvent3>
+            </HidEvent1>
+            <HidEvent2>
               <DeviceNumber>-1</DeviceNumber>
-              <Name>HOME</Name>
+              <Name>F12</Name>
               <HidType>1</HidType>
               <EventType>3</EventType>
               <ActionType>1</ActionType>
-              <ControlIndex>74</ControlIndex>
-            </HidEvent3>
+              <ControlIndex>69</ControlIndex>
+            </HidEvent2>
           </HidCommand0>
         </Events>
       </HidEvent>
@@ -1821,56 +1813,6 @@
     <Event39>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
-        <Name>APUON</Name>
-        <HidType>3</HidType>
-        <EventType>1</EventType>
-        <ActionType>1</ActionType>
-        <ControlIndex>20</ControlIndex>
-        <Events>
-          <HidCommand0>
-            <EventName>Auto Start</EventName>
-            <IsSequence>False</IsSequence>
-            <Layers>1 2 16 32 64</Layers>
-            <Delay>-1</Delay>
-            <Comment>
-            </Comment>
-            <EventsNumber>2</EventsNumber>
-            <StartTrigger>0</StartTrigger>
-            <StopTrigger>0</StopTrigger>
-            <CurveType>0</CurveType>
-            <Lower>0</Lower>
-            <Center>0</Center>
-            <Upper>0</Upper>
-            <Trim>0</Trim>
-            <Curve>0</Curve>
-            <Zoom>0</Zoom>
-            <AxisIsReversed>False</AxisIsReversed>
-            <AxisIsRelative>False</AxisIsRelative>
-            <XPosition>50</XPosition>
-            <YPosition>50</YPosition>
-            <HidEvent0>
-              <DeviceNumber>-1</DeviceNumber>
-              <Name>L_WIN</Name>
-              <HidType>1</HidType>
-              <EventType>3</EventType>
-              <ActionType>1</ActionType>
-              <ControlIndex>227</ControlIndex>
-            </HidEvent0>
-            <HidEvent1>
-              <DeviceNumber>-1</DeviceNumber>
-              <Name>HOME</Name>
-              <HidType>1</HidType>
-              <EventType>3</EventType>
-              <ActionType>1</ActionType>
-              <ControlIndex>74</ControlIndex>
-            </HidEvent1>
-          </HidCommand0>
-        </Events>
-      </HidEvent>
-    </Event39>
-    <Event40>
-      <HidEvent>
-        <DeviceNumber>1002</DeviceNumber>
         <Name>LDGH</Name>
         <HidType>3</HidType>
         <EventType>1</EventType>
@@ -1909,13 +1851,63 @@
           </HidCommand0>
         </Events>
       </HidEvent>
+    </Event39>
+    <Event40>
+      <HidEvent>
+        <DeviceNumber>1002</DeviceNumber>
+        <Name>EACON</Name>
+        <HidType>3</HidType>
+        <EventType>1</EventType>
+        <ActionType>1</ActionType>
+        <ControlIndex>24</ControlIndex>
+        <Events>
+          <HidCommand0>
+            <EventName>Master Arm On/Off</EventName>
+            <IsSequence>False</IsSequence>
+            <Layers>1 2 16 32 64</Layers>
+            <Delay>-1</Delay>
+            <Comment>
+            </Comment>
+            <EventsNumber>2</EventsNumber>
+            <StartTrigger>0</StartTrigger>
+            <StopTrigger>0</StopTrigger>
+            <CurveType>0</CurveType>
+            <Lower>0</Lower>
+            <Center>0</Center>
+            <Upper>0</Upper>
+            <Trim>0</Trim>
+            <Curve>0</Curve>
+            <Zoom>0</Zoom>
+            <AxisIsReversed>False</AxisIsReversed>
+            <AxisIsRelative>False</AxisIsRelative>
+            <XPosition>50</XPosition>
+            <YPosition>50</YPosition>
+            <HidEvent0>
+              <DeviceNumber>-1</DeviceNumber>
+              <Name>L_ALT</Name>
+              <HidType>1</HidType>
+              <EventType>3</EventType>
+              <ActionType>1</ActionType>
+              <ControlIndex>226</ControlIndex>
+            </HidEvent0>
+            <HidEvent1>
+              <DeviceNumber>-1</DeviceNumber>
+              <Name>w</Name>
+              <HidType>1</HidType>
+              <EventType>3</EventType>
+              <ActionType>1</ActionType>
+              <ControlIndex>26</ControlIndex>
+            </HidEvent1>
+          </HidCommand0>
+        </Events>
+      </HidEvent>
     </Event40>
     <Event41>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>EACON</Name>
         <HidType>3</HidType>
-        <EventType>1</EventType>
+        <EventType>2</EventType>
         <ActionType>1</ActionType>
         <ControlIndex>24</ControlIndex>
         <Events>
@@ -1963,14 +1955,14 @@
     <Event42>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
-        <Name>EACON</Name>
+        <Name>RDRNRM</Name>
         <HidType>3</HidType>
-        <EventType>2</EventType>
+        <EventType>1</EventType>
         <ActionType>1</ActionType>
-        <ControlIndex>24</ControlIndex>
+        <ControlIndex>25</ControlIndex>
         <Events>
           <HidCommand0>
-            <EventName>Master Arm On/Off</EventName>
+            <EventName>Laser On/Off</EventName>
             <IsSequence>False</IsSequence>
             <Layers>1 2 16 32 64</Layers>
             <Delay>-1</Delay>
@@ -1992,19 +1984,19 @@
             <YPosition>50</YPosition>
             <HidEvent0>
               <DeviceNumber>-1</DeviceNumber>
-              <Name>L_ALT</Name>
+              <Name>R_SHIFT</Name>
               <HidType>1</HidType>
               <EventType>3</EventType>
               <ActionType>1</ActionType>
-              <ControlIndex>226</ControlIndex>
+              <ControlIndex>229</ControlIndex>
             </HidEvent0>
             <HidEvent1>
               <DeviceNumber>-1</DeviceNumber>
-              <Name>w</Name>
+              <Name>o</Name>
               <HidType>1</HidType>
               <EventType>3</EventType>
               <ActionType>1</ActionType>
-              <ControlIndex>26</ControlIndex>
+              <ControlIndex>18</ControlIndex>
             </HidEvent1>
           </HidCommand0>
         </Events>
@@ -2015,7 +2007,7 @@
         <DeviceNumber>1002</DeviceNumber>
         <Name>RDRNRM</Name>
         <HidType>3</HidType>
-        <EventType>1</EventType>
+        <EventType>2</EventType>
         <ActionType>1</ActionType>
         <ControlIndex>25</ControlIndex>
         <Events>
@@ -2063,56 +2055,6 @@
     <Event44>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
-        <Name>RDRNRM</Name>
-        <HidType>3</HidType>
-        <EventType>2</EventType>
-        <ActionType>1</ActionType>
-        <ControlIndex>25</ControlIndex>
-        <Events>
-          <HidCommand0>
-            <EventName>Laser On/Off</EventName>
-            <IsSequence>False</IsSequence>
-            <Layers>1 2 16 32 64</Layers>
-            <Delay>-1</Delay>
-            <Comment>
-            </Comment>
-            <EventsNumber>2</EventsNumber>
-            <StartTrigger>0</StartTrigger>
-            <StopTrigger>0</StopTrigger>
-            <CurveType>0</CurveType>
-            <Lower>0</Lower>
-            <Center>0</Center>
-            <Upper>0</Upper>
-            <Trim>0</Trim>
-            <Curve>0</Curve>
-            <Zoom>0</Zoom>
-            <AxisIsReversed>False</AxisIsReversed>
-            <AxisIsRelative>False</AxisIsRelative>
-            <XPosition>50</XPosition>
-            <YPosition>50</YPosition>
-            <HidEvent0>
-              <DeviceNumber>-1</DeviceNumber>
-              <Name>R_SHIFT</Name>
-              <HidType>1</HidType>
-              <EventType>3</EventType>
-              <ActionType>1</ActionType>
-              <ControlIndex>229</ControlIndex>
-            </HidEvent0>
-            <HidEvent1>
-              <DeviceNumber>-1</DeviceNumber>
-              <Name>o</Name>
-              <HidType>1</HidType>
-              <EventType>3</EventType>
-              <ActionType>1</ActionType>
-              <ControlIndex>18</ControlIndex>
-            </HidEvent1>
-          </HidCommand0>
-        </Events>
-      </HidEvent>
-    </Event44>
-    <Event45>
-      <HidEvent>
-        <DeviceNumber>1002</DeviceNumber>
         <Name>APENG</Name>
         <HidType>3</HidType>
         <EventType>1</EventType>
@@ -2151,8 +2093,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event45>
-    <Event46>
+    </Event44>
+    <Event45>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>APPAT</Name>
@@ -2193,8 +2135,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event46>
-    <Event47>
+    </Event45>
+    <Event46>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>APPAT</Name>
@@ -2235,8 +2177,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event47>
-    <Event48>
+    </Event46>
+    <Event47>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>APALT</Name>
@@ -2277,8 +2219,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event48>
-    <Event49>
+    </Event47>
+    <Event48>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>APALT</Name>
@@ -2319,58 +2261,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event49>
-    <Event50>
-      <HidEvent>
-        <DeviceNumber>1002</DeviceNumber>
-        <Name>APUOFF</Name>
-        <HidType>3</HidType>
-        <EventType>1</EventType>
-        <ActionType>1</ActionType>
-        <ControlIndex>35</ControlIndex>
-        <Events>
-          <HidCommand0>
-            <EventName>Auto Off</EventName>
-            <IsSequence>False</IsSequence>
-            <Layers>1 2 16 32 64</Layers>
-            <Delay>-1</Delay>
-            <Comment>
-            </Comment>
-            <EventsNumber>2</EventsNumber>
-            <StartTrigger>0</StartTrigger>
-            <StopTrigger>0</StopTrigger>
-            <CurveType>0</CurveType>
-            <Lower>0</Lower>
-            <Center>0</Center>
-            <Upper>0</Upper>
-            <Trim>0</Trim>
-            <Curve>0</Curve>
-            <Zoom>0</Zoom>
-            <AxisIsReversed>False</AxisIsReversed>
-            <AxisIsRelative>False</AxisIsRelative>
-            <XPosition>50</XPosition>
-            <YPosition>50</YPosition>
-            <HidEvent0>
-              <DeviceNumber>-1</DeviceNumber>
-              <Name>L_WIN</Name>
-              <HidType>1</HidType>
-              <EventType>3</EventType>
-              <ActionType>1</ActionType>
-              <ControlIndex>227</ControlIndex>
-            </HidEvent0>
-            <HidEvent1>
-              <DeviceNumber>-1</DeviceNumber>
-              <Name>END</Name>
-              <HidType>1</HidType>
-              <EventType>3</EventType>
-              <ActionType>1</ActionType>
-              <ControlIndex>77</ControlIndex>
-            </HidEvent1>
-          </HidCommand0>
-        </Events>
-      </HidEvent>
-    </Event50>
-    <Event51>
+    </Event48>
+    <Event49>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>CSU</Name>
@@ -2419,8 +2311,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event51>
-    <Event52>
+    </Event49>
+    <Event50>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>CSD</Name>
@@ -2469,8 +2361,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event52>
-    <Event53>
+    </Event50>
+    <Event51>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>CSR</Name>
@@ -2519,8 +2411,8 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event53>
-    <Event54>
+    </Event51>
+    <Event52>
       <HidEvent>
         <DeviceNumber>1002</DeviceNumber>
         <Name>CSL</Name>
@@ -2569,7 +2461,7 @@
           </HidCommand0>
         </Events>
       </HidEvent>
-    </Event54>
+    </Event52>
   </EventsList>
   <AxisCustomization>
     <Mapping0>
