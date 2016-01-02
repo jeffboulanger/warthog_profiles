@@ -2917,7 +2917,7 @@
           <StopTrigger>0</StopTrigger>
           <CurveType>0</CurveType>
           <Lower>0</Lower>
-          <Center>2</Center>
+          <Center>0</Center>
           <Upper>0</Upper>
           <Trim>0</Trim>
           <Curve>2</Curve>
